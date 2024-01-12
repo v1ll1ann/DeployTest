@@ -1,0 +1,98 @@
+.App-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #282c34;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.login-container {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  height: 300px;
+  border: 2px solid #ccc;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.login-container input {
+  margin-bottom: 20px;
+  display: block;
+}
+
+.login-container label {
+  margin-bottom: 5px;
+  display: block;
+  color: black;
+}
+
+.login {
+
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  }
+
+.button-wrapper button {
+  display: block;
+}
+.App-header button {
+  background-color: transparent;
+  border: none;
+  padding: 0.6em 1.2em;
+  margin-right: 200px; /* Add spacing between buttons */
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  cursor: pointer;
+  transition: background-color 0.25s;
+}
+
+.App-header button:last-child {
+  margin-right: 0; /* Remove margin from the last button */
+}
+
+.App-header button:hover {
+  background-color: red;
+}
+.login-container {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.password-container {
+  display: flex;
+  align-items: flex-end;
+  /* ... other styles ... */
+}
+
+.password-input {
+  /* ... styles for the password input ... */
+}
+
+.forgot-password {
+  margin-top: 10px;
+  margin-left: 100px;
+
+  }
+  .forgot-password button {
+    background-color: transparent;
+  }
