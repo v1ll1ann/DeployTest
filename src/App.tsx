@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+let React;
 import './App.css'
 
 function App() {
