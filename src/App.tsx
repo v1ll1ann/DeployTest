@@ -14,7 +14,7 @@ function App() {
     <div className="App">
       <header className="App-header" style={{ position: 'fixed' }}>
         <nav>
-          <button>home</button>
+          <button>Home</button>
           <button>Login</button>
           <button>Register</button>
         </nav>
