@@ -21,6 +21,7 @@ function App() {
       </header>
       <div className="login-container" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
         <form onSubmit={handleLogin}>
+                    <label htmlFor="email">Email :</label>
           <label htmlFor="email">Email :</label>
           <input
             type="email"
